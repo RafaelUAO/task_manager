@@ -23,10 +23,6 @@ body {
     align-items: center;
     width: 500px;
     height: 500px;
-    width: 500px;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
     border: 1px solid red;
 }
 
@@ -37,9 +33,6 @@ form {
     justify-content: center;
     width: 50%;
     height: auto;
-    align-items: center;
-    width: 50%;
-    height: 50%;
     border: 1px solid red;
 }
 
@@ -53,12 +46,11 @@ form label {
 .action_buttons {
     display: flex;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 20px;
     flex-direction: column;
     border: 2px solid blue;
 }
 
 .action_buttons input {
-    margin-bottom: 15px;
     margin-bottom: 15px; /*Margem em baixo do botão*/
 }
