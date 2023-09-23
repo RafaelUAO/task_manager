@@ -1,3 +1,5 @@
+<?php ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -16,7 +18,7 @@
             <input type="password" class="form-control" name="senha" id="senha">
             <section class="action_buttons">
                 <input type="submit" class="btn btn-success" name="submit" value="Login">
-                <a href="./pages/cadastro.html" class="btn btn-secondary">Cadastre-se</a>                
+                <a href="./pages/cadastro.php" class="btn btn-secondary">Cadastre-se</a>                
             </section>
         </form>
     </main>
