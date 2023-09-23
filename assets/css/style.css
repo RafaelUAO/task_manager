@@ -1,0 +1,49 @@
+* { box-sizing: border-box; padding: 0; margin: 0; } /*Resetar o padrão da pagina*/
+
+body {
+    display: flex;
+    width: 100vw; /*Comprimento*/
+    height: 100vh; /*Altura*/
+    justify-content: center; /*Centralizar(Horizontal)*/
+    align-items: center; /*Centralizar(Vertical)*/
+    border: 1px solid red;
+}
+
+.main_container {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
+}
+
+form label {
+    text-align: left;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid red;
+}
+
+.action_buttons {
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    flex-direction: column;
+    border: 2px solid blue;
+}
+
+.action_buttons input {
+    margin-bottom: 15px; /*Margem em baixo do botão*/
+}
