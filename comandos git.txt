@@ -1,0 +1,6 @@
+// Subir projeto no git
+git push origin nome_branch
+
+// Puxar alterações do github
+git pull origin nome_branch
+
